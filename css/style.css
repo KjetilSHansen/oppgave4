@@ -7,9 +7,28 @@ html{
     font-size: 10px;
 }
 
+
 /*BODY----------*/
 body{
     font-family: 'Cormorant garamond', serif ;
     background-color: #f9f6f3;
     color: #413125;
+}
+
+
+/*ALL H1----------*/
+h1{
+    font-size: 10rem;
+}
+
+
+/*ALL H2----------*/
+h2{
+    font-size: 5rem;
+}
+
+
+/*HEADER----------*/
+.header-flex{
+    display: flex;
 }
