@@ -25,6 +25,7 @@ h1{
 /*ALL H2----------*/
 h2{
     font-size: 5rem;
+    padding-left: 8rem;
 }
 
 
@@ -98,8 +99,31 @@ input{
 
 .chairs-and-tables{
     width: 100%;
-    height: 80rem;
+    position: absolute;
 }
+
+.hero-text{
+    position: relative;
+    padding-top: 58rem;
+}
+
+.hero-sjekk-ut{
+    font-size: 7rem;
+    color: #f9f6f3;
+}
+
+.hero-les-mer{  /*Spør om alt dette er riktig*/
+    
+    background-color: #b27445;
+    color: #f9f6f3;
+    font-size: 3rem;
+    padding: 1rem;
+
+    /*      Top  Right  Bottom Left      */
+    margin: 1rem 120rem 10rem 8rem ;
+    text-align: center;
+}
+
 
 
 
@@ -113,4 +137,5 @@ input{
 footer{
     background-color: #535c5a;
     color: #f9f6f3;
+    position: relative;
 }
