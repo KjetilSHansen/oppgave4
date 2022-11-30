@@ -26,6 +26,8 @@ h1{
 h2{
     font-size: 5rem;
     padding-left: 8rem;
+    margin-top: 18rem;
+    
 }
 
 
@@ -36,7 +38,6 @@ p{
 
 
 /*HEADER----------*/
-
 .header-flex{
     display: flex;
     padding: 6rem;
@@ -70,7 +71,6 @@ nav ul {
 
 
 /*SEARCH----------*/
-
 .search-container{
     background: #ffffff;
     border-style: solid;
@@ -94,9 +94,7 @@ input{
 }
 
 
-
 /*HERO----------*/
-
 .chairs-and-tables-img{
     width: 100%;
     position: absolute;
@@ -104,41 +102,44 @@ input{
 
 .hero-text{
     position: relative;
-    padding-top: 58rem;
+    padding-top: 36rem;
+    border-style: solid;  /* Veldig rart. Når "border-style: solid;" er på fungerer h2 sin margin-top: 8rem;, men ikke uten  */
 }
 
 .hero-sjekk-ut{
     font-size: 7rem;
     color: #f9f6f3;
+    margin-bottom: 2rem;
 }
 
 .hero-les-mer{  /*Spør om alt dette er riktig*/
-    
     background-color: #b27445;
     color: #f9f6f3;
     font-size: 3rem;
     padding: 1rem;
-
     /*      Top  Right  Bottom Left      */
     margin: 1rem 120rem 10rem 8rem ;
     text-align: center;
 }
 
 
-
 /*BLI-INSPIRERT----------*/
-
-.carousel-container{
+.carousel-container-one{
     height: 40rem;
     margin: 8rem;
-
     display: flex;
     gap: 8rem;
     justify-content: center;
 }
 
 
+/*Kampanje----------*/
+.carousel-container-two{
+    margin: 8rem;
 
+    display: flex; /* For at "justify-content: center;" skal fungere må "flex" være på*/
+    justify-content: center;
+}
 
 
 
