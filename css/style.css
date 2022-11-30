@@ -97,7 +97,7 @@ input{
 
 /*HERO----------*/
 
-.chairs-and-tables{
+.chairs-and-tables-img{
     width: 100%;
     position: absolute;
 }
@@ -122,6 +122,19 @@ input{
     /*      Top  Right  Bottom Left      */
     margin: 1rem 120rem 10rem 8rem ;
     text-align: center;
+}
+
+
+
+/*BLI-INSPIRERT----------*/
+
+.carousel-container{
+    height: 40rem;
+    margin: 8rem;
+
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
 }
 
 
