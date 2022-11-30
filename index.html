@@ -15,18 +15,18 @@
 
 <header class="header-flex">
     <h1>dandes</h1>
-
     <nav class="navigation-header">
         <ul>
             <li>Alle produkter</li>
-           <!-- <li aria-label="mine sider"><img src="" alt=""></li> -->
-            <li>favoritt-logo</li>
-            <li>handlekurv-logo</li>
+            <li aria-label="min profil"><img src="./assets/profile-icon.svg" alt=""></li> <!--legg til tekst i "alt"-->
+            <li aria-label="favoritter"><img src="./assets/heart-icon.svg" alt=""></li> <!--legg til tekst i "alt"-->
+            <li aria-label="handlekurv"><img src="./assets/shopping-cart-icon.svg" alt=""></li> <!--legg til tekst i "alt"-->
         </ul>
-        <!--search-elemet-->
+        <div class="search-container"> <!--spør om disse kodene er riktig satt opp - gjøre om til "form"?-->
+            <input type="search" id="search"> 
+            <button class="search-button"><img src="./assets/search-icon.svg" alt=""></button> <!--legg til tekst i "alt"-->
+        </div>
     </nav>
-
-
     <!--NAV APP-VERSJON-->
 
     <!--
@@ -40,14 +40,11 @@
         </ul>
     </nav>
     -->
-
-
-
 </header>
 
 <body>
     <section>
-        <img src="./assets/hero.jpg" alt="chairs-and-tables">
+        <img class="chairs-and-tables" src="./assets/hero.jpg" alt="chairs and tables">
         <h2>Sjekk ut de nyeste lenestolene!</h2>
         <p>Les mer</p>
     </section>
