@@ -98,33 +98,37 @@ input{
 }
 
 
-
 /*HERO----------*/
-.chairs-and-tables-img{
-    width: 100%;
-    position: absolute;
+.hero-container {
+    width: 100vw;
+    height: 80vh;
+    background-image: url('../assets/hero-3.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 4rem;
 }
 
+
 .hero-text{
-    position: relative;
-    padding-top: 36rem;
-    border-style: solid;  /* Veldig rart. Når "border-style: solid;" er på fungerer h2 sin margin-top: 8rem;, men ikke uten  */
+    position: absolute;
+    bottom: 4rem;
 }
 
 .hero-sjekk-ut{
     font-size: 7rem;
     color: #f9f6f3;
     margin-bottom: 2rem;
+    padding-left: 0;
 }
 
-.hero-les-mer{  /*Spør om alt dette er riktig*/
+.hero-les-mer{
     background-color: #b27445;
     color: #f9f6f3;
     font-size: 3rem;
-    padding: 1rem;
-    /*      Top  Right  Bottom Left      */
-    margin: 1rem 120rem 10rem 8rem ;
+    padding: 2rem 4rem 2rem 4rem;
     text-align: center;
+    border: none;
 }
 
 
@@ -188,3 +192,7 @@ footer{
     color: #f9f6f3;
     position: relative;
 }
+
+
+
+  /*      Top  Right  Bottom Left      */
