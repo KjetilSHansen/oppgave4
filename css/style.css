@@ -128,18 +128,32 @@ input{
     height: 40rem;
     margin: 8rem;
     display: flex;
-    gap: 8rem;
     justify-content: center;
+    gap: 8rem;
+    
 }
 
 
-/*Kampanje----------*/
+/*KAMPANJE----------*/
 .carousel-container-two{
-    margin: 8rem;
+    margin: 8rem 8rem 0rem 8rem;
 
     display: flex; /* For at "justify-content: center;" skal fungere må "flex" være på*/
     justify-content: center;
 }
+
+
+/*OM-OSS----------*/
+.om-oss-container{
+    border-style: solid;
+    margin: 0rem 8rem 8rem 8rem;
+}
+
+
+
+
+
+
 
 
 
