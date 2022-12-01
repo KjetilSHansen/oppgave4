@@ -70,12 +70,16 @@ nav ul {
     align-items: center;
 }
 
+.alle-produkter{
+    text-decoration: none;
+    color: #413125;
+}
+
 
 /*SEARCH----------*/
 .search-container{
     background: #ffffff;
     border-style: solid;
-    border-radius: 1rem; /*Kanskje fjernes*/
     display: flex;
 }
 
@@ -109,7 +113,6 @@ input{
     padding: 4rem;
 }
 
-
 .hero-text{
     position: absolute;
     bottom: 4rem;
@@ -138,17 +141,14 @@ input{
     margin: 8rem;
     display: flex;
     justify-content: center;
+    flex-direction: row;
     gap: 8rem;
-    
 }
 
 
 /*KAMPANJE----------*/
 .carousel-container-two{
     margin: 8rem 8rem 0rem 8rem;
-
-    display: flex; /* For at "justify-content: center;" skal fungere må "flex" være på*/
-    justify-content: center;
 }
 
 
@@ -159,7 +159,7 @@ input{
 
 .om-oss-container{
     border-style: solid;
-    margin: 0rem 8rem 8rem 8rem;
+    margin: 8rem 8rem 8rem 8rem;
     
     display: flex;
     flex-wrap: wrap;
