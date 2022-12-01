@@ -19,20 +19,22 @@
     <nav class="navigation-header">
 
         <ul>
-            <li>Alle produkter</li>
-            <li aria-label="min profil"><img src="./assets/profile-icon.svg" alt=""></li> <!--legg til tekst i "alt"-->
-            <li aria-label="favoritter"><img src="./assets/heart-icon.svg" alt=""></li> <!--legg til tekst i "alt"-->
-            <li aria-label="handlekurv"><img src="./assets/shopping-cart-icon.svg" alt=""></li> <!--legg til tekst i "alt"-->
+            <li>Alle produkter</li> <!--link-->
+            <li aria-label="min profil"><img src="./assets/profile-icon.svg" aria-hidden="true"></li>
+            <li aria-label="favoritter"><img src="./assets/heart-icon.svg" aria-hidden="true"></li>
+            <li aria-label="handlekurv"><img src="./assets/shopping-cart-icon.svg" aria-hidden="true"></li>
         </ul>
 
-        <div class="search-container"> <!--spør om disse kodene er riktig satt opp - gjøre om til "form"?-->
-            <input type="search" id="search"> 
-            <button class="search-button"><img src="./assets/search-icon.svg" alt=""></button> <!--legg til tekst i "alt"-->
-        </div>
+        <form class="search-container" action="result.html">
+            <label for="search" style="display: none">Søk</label>
+            <input type="search" id="search">
+            <button aria-label="søkknapp" class="search-button"><img src="./assets/search-icon.svg" aria-hidden="true"></button>
 
-    <!--NAV APP-VERSJON-->
+        </form>
 
-    <!--
+        <!--NAV APP-VERSJON-->
+
+        <!--
     <nav>
         <ul>
             <li>profil-logo</li>
@@ -45,17 +47,18 @@
     -->
 
     </nav>
+
 </header>
 
 <body>
-    
+
     <section class="first-section">
 
-        <img class="chairs-and-tables-img" src="./assets/hero-3.png" alt="chairs and tables">
+        <img class="chairs-and-tables-img" src="./assets/hero-3.png" alt="chairs and tables"> <!--Ok å bruke "class" i img?-->
 
-        <div class="hero-text">
+        <div class="hero-text"> <!--Er alle "classene" riktig her?-->
             <h2 class="hero-sjekk-ut">Sjekk ut de nyeste lenestolene!</h2>
-            <p class="hero-les-mer">Les mer</p>
+            <p class="hero-les-mer">Les mer</p>   <!--"Les mer" må være button-->
         </div>
 
     </section>
@@ -65,9 +68,9 @@
         <h2>Bli inspirert</h2>
 
         <div class="carousel-container-one">
-            <img src="./assets/green-box.png" alt="green-box-one">
-            <img src="./assets/green-box.png" alt="green-box-two">
-            <img src="./assets/green-box.png" alt="green-box-three">
+            <img src="./assets/green-box.png" alt="green-box-1"> <!--Hva står "alt" for?-->
+            <img src="./assets/green-box.png" alt="green-box-2">
+            <img src="./assets/green-box.png" alt="green-box-3">
         </div>
 
     </section>
@@ -76,19 +79,19 @@
 
         <h2>Kampanje</h2>
 
-        <div class="carousel-container-two"> <!--Lager en container tilfelle flere bilder skal legges til-->
+        <div class="carousel-container-two"><!--Lager en container tilfelle flere bilder skal legges til-->
             <img src="./assets/red-box.png" alt="red-box">
         </div>
 
     </section>
 
-    <h2>Om oss</h2>
+    <h2 class="om-oss-heading">Om oss</h2>
 
     <article class="om-oss-container">
-        
-        <img src="./assets/green-box.png" alt="green-box-fire">
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab et ratione eaque ullam sit delectus illum at
+        <img class="green-box-4" src="./assets/green-box.png" alt="green-box-4">
+
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab et ratione eaque ullam sit delectus illum at
             mollitia molestiae iste minus ipsa eligendi excepturi alias rem beatae sequi voluptate commodi, voluptatem
             odit debitis illo placeat? Accusantium fuga fugit sapiente dolorem iste tempore ad, ut quos temporibus modi,
             repudiandae officia. Amet, esse iste doloremque sed saepe qui quibusdam nemo nisi laborum repellat ut
@@ -100,7 +103,7 @@
             eius voluptatibus eum a iure. Adipisci aut nemo, tenetur ullam praesentium recusandae amet optio sed
             cupiditate qui, hic totam deleniti eos.</p>
 
-        <img src="./assets/green-box.png" alt="green-box-five">
+        <img class="green-box-5" src="./assets/green-box.png" alt="green-box-5">
 
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste rem quibusdam doloremque deserunt amet
             repellendus commodi quia possimus, optio magni unde ad eos cupiditate, quod eligendi tempore dolor? Mollitia
@@ -116,11 +119,13 @@
 <footer>
     <p>Åpningstider: 12.00-20:00</p>
 
-    <a href="https://www.facebook.com" arial-label="Link til facebook side av dandes"><img src="./assets/facebook.svg"></a>
-    <a href="https://wwww.instagram.com" aria-label="Link til instagram side av dandes"><img src="./assets/instagram.svg"></a>
-    
+    <a href="https://www.facebook.com" arial-label="Link til facebook side av dandes"><img
+            src="./assets/facebook.svg"></a>
+    <a href="https://wwww.instagram.com" aria-label="Link til instagram side av dandes"><img
+            src="./assets/instagram.svg"></a>
+
     <nav class="navigation-footer">
-         <ul>
+        <ul>
             <li>Jobber</li>
             <li>Kontakt oss</li>
             <li>Finn butikk</li>

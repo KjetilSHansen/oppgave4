@@ -67,6 +67,7 @@ nav ul {
 .navigation-header ul{
     display: flex;
     gap:2rem;
+    align-items: center;
 }
 
 
@@ -74,7 +75,8 @@ nav ul {
 .search-container{
     background: #ffffff;
     border-style: solid;
-    border-radius: 1rem;
+    border-radius: 1rem; /*Kanskje fjernes*/
+    display: flex;
 }
 
 
@@ -84,6 +86,8 @@ input{
     width: 36rem;
     border-style: none;
     background: none;
+    font-size: 3rem; /*Størrelse kan endres*/
+  
 }
 
 
@@ -92,6 +96,7 @@ input{
     background: none;
     border: none;
 }
+
 
 
 /*HERO----------*/
@@ -144,9 +149,25 @@ input{
 
 
 /*OM-OSS----------*/
+.om-oss-heading{
+    text-align: center;
+}
+
 .om-oss-container{
     border-style: solid;
     margin: 0rem 8rem 8rem 8rem;
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.green-box-4{
+    height: 60rem;
+}
+
+.green-box-5{
+    height: 60rem;
 }
 
 
