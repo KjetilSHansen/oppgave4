@@ -33,7 +33,7 @@ h2{
 
 /*ALL P----------*/
 p{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 
@@ -166,6 +166,14 @@ input{
     flex-direction: row;
 }
 
+.om-oss-container1{
+    display: flex;
+    gap: 8rem;
+}
+
+
+
+
 
 
 
@@ -201,3 +209,24 @@ footer{
 
 
   /*      Top  Right  Bottom Left      */
+
+
+  /* 
+
+  hero:
+
+
+  Bli inspirert:
+
+  stol1 nummer 1
+  hylle1 nummer 2 
+  muljø1 nummer 3
+
+
+  Kampanje:
+
+
+
+
+  
+  */
