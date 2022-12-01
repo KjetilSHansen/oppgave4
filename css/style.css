@@ -33,7 +33,7 @@ h2{
 
 /*ALL P----------*/
 p{
-    font-size: 2.5rem;
+    font-size: 2.4rem;
 }
 
 
@@ -158,9 +158,7 @@ input{
 }
 
 .om-oss-flex{
-    border-style: solid;
-    margin: 8rem 8rem 8rem 8rem;
-    
+    margin: 8rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -169,15 +167,16 @@ input{
 .om-oss-container1{
     display: flex;
     gap: 8rem;
+    margin-right: 10rem;
 }
 
-
-
-
-
-
-
-
+.om-oss-container2{
+    display: flex;
+    gap: 8rem;
+    margin-top: 8rem;
+    margin-right: 10rem;
+    flex-flow: row-reverse;
+}
 
 .green-box-4{
     height: 60rem;
@@ -214,6 +213,7 @@ footer{
   /* 
 
   hero:
+  hero-ny
 
 
   Bli inspirert:
@@ -224,9 +224,6 @@ footer{
 
 
   Kampanje:
-
-
-
 
   
   */
