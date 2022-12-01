@@ -157,7 +157,7 @@ input{
     text-align: center;
 }
 
-.om-oss-container{
+.om-oss-flex{
     border-style: solid;
     margin: 8rem 8rem 8rem 8rem;
     
@@ -165,6 +165,11 @@ input{
     flex-wrap: wrap;
     flex-direction: row;
 }
+
+
+
+
+
 
 .green-box-4{
     height: 60rem;
