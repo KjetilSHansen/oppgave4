@@ -182,10 +182,6 @@ input{
     gap: 10rem;
 }
 
-
-
-
-
 .om-oss-container1{
     display: flex;
     gap: 2rem;
@@ -196,9 +192,6 @@ input{
     max-width: 58rem;
     height: auto;
 }
-
-
-
 
 .om-oss-container2 img {
     max-width: 58rem;
@@ -218,6 +211,10 @@ input{
     font-size: 2rem;
     max-width: 58rem;
 }
+
+
+/*gjør det samme i article-2 som i article-1*/
+
 
 .article-2{
     padding: 18rem 14rem 0 0;
@@ -294,7 +291,7 @@ footer{
 
 
 
-  /* 
+    /* 
 
 
   NOTATER:
@@ -303,10 +300,9 @@ footer{
 
     gjør det samme i article-2 som i article-1
 
-
-
-Spørre Carlo om kode til mobil vasjon!!!!!!!!!
-  */
+    Spørre Carlo om kode til mobil vasjon!!!!!!!!!
+  
+    */
 
 
 
