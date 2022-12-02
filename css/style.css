@@ -107,7 +107,7 @@ input{
 .hero-container {
     width: 100vw;
     height: 80vh;
-    background-image: url('../assets/hero-3.png');
+    background-image: url('../assets/hero-ny.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -149,6 +149,8 @@ input{
 
 /*KAMPANJE----------*/
 .carousel-container-two{
+    display: flex;
+    justify-content: center;
     margin: 8rem 8rem 0rem 8rem;
 }
 
@@ -159,12 +161,13 @@ input{
 }
 
 .om-oss-flex{
-    border-style: solid;
     margin: 8rem 8rem 8rem 8rem;
     
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+
+    gap: 10rem;
 }
 
 .om-oss-container1{
@@ -172,6 +175,26 @@ input{
     gap: 8rem;
 }
 
+.om-oss-container2{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8rem;
+}
+
+.article-1{
+    padding: 2rem 10rem 0rem 7rem;
+    font-family: 'noto sans', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+
+}
+
+.article-2{
+    padding: 18rem 14rem 0 0;
+    font-family: 'noto sans', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
 
 
 
@@ -196,20 +219,12 @@ input{
 
 
 
-
-
-
-
-
 /*FOOTER----------*/
 footer{
     background-color: #535c5a;
     color: #f9f6f3;
     position: relative;
 }
-
-
-
 
 /*footer-flex----------*/
 .footer-flex{
@@ -224,12 +239,7 @@ footer{
     gap: 6rem;
     padding: 7rem;
     text-align: center;
-    border-style: solid;
 }
-
-
-
-
 
 /*footer-flex-sosiale-meider----------*/
 .flex-social{
@@ -238,17 +248,13 @@ footer{
     gap: 6rem;
 }
 
-
 .navigation-footer{
-    border-style: solid;
     padding: 4rem;
 }
-
 
 .navigation-footer ul li{
     font-size: 2.4rem;
     text-align: center;
-
 }
 
 .logo-footer{
@@ -291,7 +297,13 @@ footer{
   muljø1 nummer 3
 
 
-  Kampanje:
+  hero ny - hero-ny
+
+
+bilder:
+  om oss - omoss
+  fasade - fasade
+
 
 
 
