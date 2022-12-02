@@ -8,7 +8,6 @@ html{
     font-size: 10px;
 }
 
-
 /*BODY----------*/
 body{
     font-family: 'Cormorant garamond', serif ;
@@ -166,11 +165,9 @@ input{
 
 .om-oss-flex{
     margin: 8rem 8rem 8rem 8rem;
-    
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-
     gap: 10rem;
 }
 
@@ -190,7 +187,6 @@ input{
     font-family: 'noto sans', sans-serif;
     font-weight: 300;
     font-size: 2rem;
-
 }
 
 .article-2{
@@ -200,18 +196,11 @@ input{
     font-size: 2rem;
 }
 
-
-
-
-
-
-
-
-.green-box-4{
+.om-oss-box{
     height: 60rem;
 }
 
-.green-box-5{
+.facade-box{
     height: 60rem;
 }
 
@@ -241,18 +230,20 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 6rem;
+<<<<<<< HEAD
     padding: 6rem;
 
+=======
+    padding: 7rem;
+>>>>>>> 75647efaf3caad7005f8bf868782d673d5b555b5
     font-family: 'noto sans', sans-serif;
     font-weight: 100;
-    
 }
 
 .footer-paragraph{
     font-size: 2rem;
 }
 
-/*footer-flex-sosiale-meider----------*/
 .flex-social{
     display: flex;
     justify-content: center; 
@@ -266,7 +257,11 @@ footer{
 .navigation-footer ul li{
     font-size: 2rem;
     font-family: 'noto sans', sans-serif;
+<<<<<<< HEAD
     font-weight: 100;
+=======
+    font-weight: 100;  
+>>>>>>> 75647efaf3caad7005f8bf868782d673d5b555b5
 }
 
 .logo-footer{
@@ -282,10 +277,6 @@ footer{
 
 
   NOTATER:
-
-
-    hero:
-    hero-ny
 
     font-family: 'noto sans', sans-serif;
 
