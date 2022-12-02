@@ -81,6 +81,7 @@ nav ul {
 .search-container{
     background: #ffffff;
     border-style: solid;
+    border-width: thin;
     display: flex;
 }
 
