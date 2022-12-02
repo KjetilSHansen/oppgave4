@@ -180,10 +180,13 @@ input{
 
 }
 
-.article1{
-    margin: 4rem;
+.article-1{
+    padding: 0rem 4rem;
 }
 
+.article-2{
+    padding: 4rem 4rem;
+}
 
 
 
@@ -208,20 +211,12 @@ input{
 
 
 
-
-
-
-
-
 /*FOOTER----------*/
 footer{
     background-color: #535c5a;
     color: #f9f6f3;
     position: relative;
 }
-
-
-
 
 /*footer-flex----------*/
 .footer-flex{
@@ -236,12 +231,7 @@ footer{
     gap: 6rem;
     padding: 7rem;
     text-align: center;
-    border-style: solid;
 }
-
-
-
-
 
 /*footer-flex-sosiale-meider----------*/
 .flex-social{
@@ -250,17 +240,13 @@ footer{
     gap: 6rem;
 }
 
-
 .navigation-footer{
-    border-style: solid;
     padding: 4rem;
 }
-
 
 .navigation-footer ul li{
     font-size: 2.4rem;
     text-align: center;
-
 }
 
 .logo-footer{
