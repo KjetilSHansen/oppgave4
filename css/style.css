@@ -182,11 +182,18 @@ input{
 }
 
 .article-1{
-    padding: 4rem 4rem;
+    padding: 2rem 10rem 0rem 7rem;
+    font-family: 'noto sans', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+
 }
 
 .article-2{
-    padding: 4rem 4rem;
+    padding: 18rem 14rem 0 0;
+    font-family: 'noto sans', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
 }
 
 
@@ -291,6 +298,11 @@ footer{
 
 
   hero ny - hero-ny
+
+
+bilder:
+  om oss - omoss
+  fasade - fasade
 
 
 
