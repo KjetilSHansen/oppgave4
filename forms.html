@@ -48,7 +48,7 @@
             <div>Speil </div>
     
         <img src="./assets/filtrer_button.svg">
-        
+
     </section>
 
     <section class="product-cards">
@@ -56,18 +56,21 @@
         <a class="product-card">
             <img src="./assets/lenestol_1.jpg">
             <div class="product-card_info">
-                <div>
+                <div class="info_block">
                     <h4>
-                        The Chieftan Chair
+                        The Chief Chair
                     </h4>
                     <span>Finn Juhl</span>
                 </div>
-                <img src="./assets/heart_button.svg">
-                <p>
-                    175 000 NOK
-                </p>
-            </div>
+                <div class="info_block">
+                    <img src="./assets/heart_button.svg" class="icon-heart">
+                    <p>
+                        175 000 NOK
+                    </p>
+                </div>
+         </div>
         </a>
+
         <a class="product-card">
             <img src="./assets/theegg_1.jpg">
             <div class="product-card_info">
@@ -77,10 +80,12 @@
                     </h4>
                     <span>Arne Jacobsen</span>
                 </div>
-                <img src="./assets/heart_button.svg">
-                <p>
-                    100 000 NOK
-                </p>
+                <div class="info_block">
+                    <img src="./assets/heart_button.svg" class="icon-heart">
+                    <p>
+                        100 000 NOK
+                    </p>
+                </div>
             </div>
         </a>
         <a class="product-card">
@@ -92,10 +97,13 @@
                     </h4>
                     <span>Hans Wegner</span>
                 </div>
-                <img src="./assets/heart_button.svg">
-                <p>
-                    36 000 NOK
-                </p>
+
+                <div class="info_block">
+                    <img src="./assets/heart_button.svg" class="icon-heart">
+                    <p>
+                        36 000 NOK
+                    </p>
+                </div>
             </div>
         </a>
         <a class="product-card">
@@ -107,10 +115,13 @@
                     </h4>
                     <span>Hans Wegner</span>
                 </div>
-                <img src="./assets/heart_button.svg">
-                <p>
-                    130 000 NOK
-                </p>
+
+                <div class="info_block">
+                    <img src="./assets/heart_button.svg" class="icon-heart">
+                    <p>
+                        130 000 NOK
+                    </p>
+                </div>
             </div>
         </a>
         <a class="product-card">
@@ -122,11 +133,14 @@
                     </h4>
                     <span>Finn Juhl</span>
                 </div>
-                <img src="./assets/heart_button.svg">
-                <p>
-                    43 000 NOK
-                </p>
-            </div>
+
+                <div class="info_block">
+                    <img src="./assets/heart_button.svg" class="icon-heart">
+                    <p>
+                        43 000 NOK
+                    </p>
+                </div>
+           </div>
         </a>
         <a class="product-card">
             <img src="./assets/stol_1.jpg">
@@ -137,19 +151,39 @@
                     </h4>
                     <span>Hans Wegner</span>
                 </div>
-                    <img src="./assets/heart_button.svg">
+                <div class="info_block">
+                    <img src="./assets/heart_button.svg" class="icon-heart">
                     <p>
                         30 000 NOK
                     </p>
+                </div>
             </div>
         </a>
     </section>
 
-   
 </body>
 
-<footer>
-
+<footer class="footer-flex">
+    <div class="flex-left">
+        <p class="footer-paragraph">Åpningstider:<br> <strong>12:00-20:00</strong></p>
+        <div class="flex-social">
+            <a href="https://www.facebook.com" arial-label="Link til facebook side av dandes"><img
+                    src="./assets/facebook.svg"></a>
+            <a href="https://wwww.instagram.com" aria-label="Link til instagram side av dandes"><img
+                    src="./assets/instagram.svg"></a>
+        </div>
+    </div>
+    <nav class="navigation-footer">
+        <ul>
+            <li>Jobber</li>
+            <li>Kontakt oss</li>
+            <li>Finn butikk</li>
+            <li>Privacy policy</li>
+            <li>Cookie settings</li>
+            <li>Sprørsmål og svar</li>
+        </ul>
+    </nav>
+    <img class="logo-footer" src="./assets/logodandes.svg" alt="logo-dandes">
 </footer>
 
 </html>
