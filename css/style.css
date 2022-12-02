@@ -302,7 +302,9 @@ footer{
   .categories {
     display: flex;
     flex-direction: row;
-    padding: 0 3rem 0 3rem;
+    gap: 7rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
     font-family: 'Cormorant garamond', serif ;
     font-size: 3rem;
   }
@@ -316,15 +318,14 @@ footer{
     font-family: 'Cormorant garamond', serif ;
     font-size: 3rem;
     color: crimson;
-    padding: 0 3rem 0 3rem;
   }
 
 
 .product-cards {
-    max-width: 110rem;
+    max-width: 120rem;
     width: 100%;
     display: flex;
-    margin: 0 auto;
+    margin: 5rem auto;
     justify-content: space-between;
     flex-flow: row wrap;
 }
