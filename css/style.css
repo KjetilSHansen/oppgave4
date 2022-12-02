@@ -259,3 +259,7 @@ footer{
     font-family: 'Cormorant garamond', serif ;
     font-size: 2.5rem;
 }
+
+.product-card_info img{
+    width: 10rem;
+}
