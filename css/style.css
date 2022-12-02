@@ -238,7 +238,14 @@ footer{
     flex-direction: column;
     gap: 6rem;
     padding: 7rem;
-    text-align: center;
+
+    font-family: 'noto sans', sans-serif;
+    font-weight: 100;
+    
+}
+
+.footer-paragraph{
+    font-size: 2rem;
 }
 
 /*footer-flex-sosiale-meider----------*/
@@ -253,8 +260,10 @@ footer{
 }
 
 .navigation-footer ul li{
-    font-size: 2.4rem;
-    text-align: center;
+    font-size: 2rem;
+    font-family: 'noto sans', sans-serif;
+    font-weight: 100;
+  
 }
 
 .logo-footer{
