@@ -33,7 +33,7 @@ h2{
 
 /*ALL P----------*/
 p{
-    font-size: 2.4rem;
+    font-size: 2.5rem;
 }
 
 
@@ -158,7 +158,9 @@ input{
 }
 
 .om-oss-flex{
-    margin: 8rem;
+    border-style: solid;
+    margin: 8rem 8rem 8rem 8rem;
+    
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -167,16 +169,15 @@ input{
 .om-oss-container1{
     display: flex;
     gap: 8rem;
-    margin-right: 10rem;
 }
 
-.om-oss-container2{
-    display: flex;
-    gap: 8rem;
-    margin-top: 8rem;
-    margin-right: 10rem;
-    flex-flow: row-reverse;
-}
+
+
+
+
+
+
+
 
 .green-box-4{
     height: 60rem;
@@ -278,7 +279,6 @@ footer{
   /* 
 
   hero:
-  hero-ny
 
 
   Bli inspirert:
@@ -290,5 +290,32 @@ footer{
 
   Kampanje:
 
-  
+
+
+
+
   */
+
+
+
+
+
+
+  /*Side 2---------*/
+
+.product-cards {
+    max-width: 110rem;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.product-card {
+    width: 36rem;
+}
+
+.product-card img {
+    width: 100%;
+}
