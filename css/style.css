@@ -1,5 +1,6 @@
-/*FONT----------*/
+/*FONTS----------*/
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Noto+Sans:wght@100;300;500;800&display=swap');
 
 
 /*HTML----------*/
@@ -281,6 +282,8 @@ footer{
   hero:
 
 
+
+
   Bli inspirert:
 
   stol1 nummer 1
@@ -294,10 +297,17 @@ footer{
 
 
 
+
+
+
+
+
+
+Font, Noto Sans kode:
+
+font-family: 'noto sans', sans-serif;
+
   */
-
-
-
 
 
 
