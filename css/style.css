@@ -149,6 +149,8 @@ input{
 
 /*KAMPANJE----------*/
 .carousel-container-two{
+    display: flex;
+    justify-content: center;
     margin: 8rem 8rem 0rem 8rem;
 }
 
