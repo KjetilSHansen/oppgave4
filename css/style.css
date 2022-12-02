@@ -13,6 +13,15 @@ body{
     font-family: 'Cormorant garamond', serif ;
     background-color: #f9f6f3;
     color: #413125;
+    overflow-x: hidden;
+}
+
+
+
+main{ 
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 100%;
 }
 
 
@@ -146,6 +155,8 @@ input{
     justify-content: center;
     flex-direction: row;
     gap: 8rem;
+    overflow-x: scroll;
+
 }
 
 
@@ -154,6 +165,7 @@ input{
     display: flex;
     justify-content: center;
     margin: 8rem 8rem 0rem 8rem;
+    overflow-x: scroll;
 }
 
 
@@ -164,29 +176,47 @@ input{
 }
 
 .om-oss-flex{
-    margin: 8rem 8rem 8rem 8rem;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 10rem;
 }
 
+
+
+
+
 .om-oss-container1{
     display: flex;
-    gap: 8rem;
+    gap: 2rem;
+    flex-flow: row wrap;
+}
+
+.om-oss-container1 img {
+    max-width: 58rem;
+    height: auto;
+}
+
+
+
+
+.om-oss-container2 img {
+    max-width: 58rem;
+    height: auto;
+    flex-flow: row wrap;
 }
 
 .om-oss-container2{
     display: flex;
     flex-direction: row-reverse;
-    gap: 8rem;
+    gap: 4rem;
 }
 
 .article-1{
-    padding: 2rem 10rem 0rem 7rem;
     font-family: 'noto sans', sans-serif;
     font-weight: 300;
     font-size: 2rem;
+    max-width: 58rem;
 }
 
 .article-2{
