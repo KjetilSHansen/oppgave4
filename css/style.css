@@ -158,6 +158,7 @@ input{
 /*OM-OSS----------*/
 .om-oss-heading{
     text-align: center;
+    margin-left: 19rem;
 }
 
 .om-oss-flex{
@@ -267,7 +268,7 @@ footer{
 }
 
 .logo-footer{
-    margin: 0 4rem 0 auto;
+    margin: 0 6rem 0 auto;
 }
 
 
