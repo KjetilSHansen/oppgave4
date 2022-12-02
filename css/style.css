@@ -313,6 +313,27 @@ font-family: 'noto sans', sans-serif;
 
   /*Side 2---------*/
 
+  .categories {
+    display: flex;
+    flex-direction: row;
+    padding: 0 3rem 0 3rem;
+    font-family: 'Cormorant garamond', serif ;
+    font-size: 3rem;
+  }
+
+  .categories img{
+    margin: 0 0 0 auto;
+    padding:0 5rem 5rem 0;
+  }
+
+  .categories p{
+    font-family: 'Cormorant garamond', serif ;
+    font-size: 3rem;
+    color: crimson;
+    padding: 0 3rem 0 3rem;
+  }
+
+
 .product-cards {
     max-width: 110rem;
     width: 100%;
@@ -336,7 +357,18 @@ font-family: 'noto sans', sans-serif;
     font-size: 2.5rem;
 }
 
+.product-card_info{
+    font-family: 'noto sans', sans-serif;
+    font-size: 1.5rem;
+}
+
 .product-card_info img{
     width: 4rem;
+    margin: 0 0 0 30rem;
+}
+
+.product-card_info p {
+    font-family: 'noto sans', sans-serif;
+    font-size: 1.5rem;
     margin: 0 0 0 30rem;
 }
