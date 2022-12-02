@@ -332,11 +332,13 @@ font-family: 'noto sans', sans-serif;
     width: 100%;
 }
 
+
 .product-card_info h4 {
     font-family: 'Cormorant garamond', serif ;
     font-size: 2.5rem;
 }
 
 .product-card_info img{
-    width: 10rem;
+    width: 4rem;
+    margin: 0 0 0 30rem;
 }
