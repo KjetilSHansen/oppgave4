@@ -264,66 +264,29 @@ footer{
 
 
 
-/*footer-flex-høyre-side----------
-
-.flex-right{
-    display: flex;
-    flex-direction: row;
-}
-    må legge til div med ".flex-right" hvis koden skal funke
-*/
-
-
-
-
-
-
-
-
-  /*      Top  Right  Bottom Left      */
 
 
   /* 
 
-  hero:
+
+  NOTATER:
 
 
+    hero:
+    hero-ny
 
-
-  Bli inspirert:
-
-  stol1 nummer 1
-  hylle1 nummer 2 
-  muljø1 nummer 3
-
-
-  hero ny - hero-ny
-
-
-bilder:
-  om oss - omoss
-  fasade - fasade
-
-
-
-
-
-
-
-
-
-
-
-
-Font, Noto Sans kode:
-
-font-family: 'noto sans', sans-serif;
+    font-family: 'noto sans', sans-serif;
 
   */
 
 
 
-  /*Side 2---------*/
+
+
+
+
+
+/*---------- ----------SIDE-2---------- ----------*/
 
 .product-cards {
     max-width: 110rem;
