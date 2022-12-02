@@ -282,6 +282,13 @@ footer{
 
 /*---------- ----------SIDE-2---------- ----------*/
 
+body section p:hover{
+    text-decoration:underline;
+}
+
+body section div:hover{
+    text-decoration:underline;
+}
   .categories {
     display: flex;
     flex-direction: row;
