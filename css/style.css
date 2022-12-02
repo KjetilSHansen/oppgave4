@@ -199,12 +199,77 @@ input{
 
 
 
+
 /*FOOTER----------*/
 footer{
     background-color: #535c5a;
     color: #f9f6f3;
     position: relative;
 }
+
+
+
+
+/*footer-flex----------*/
+.footer-flex{
+    display: flex;
+    gap: 8rem;
+}
+
+/*footer-flex-venstre-side----------*/
+.flex-left{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    padding: 7rem;
+    text-align: center;
+    border-style: solid;
+}
+
+
+
+
+
+/*footer-flex-sosiale-meider----------*/
+.flex-social{
+    display: flex;
+    justify-content: center; 
+    gap: 6rem;
+}
+
+
+.navigation-footer{
+    border-style: solid;
+    padding: 4rem;
+}
+
+
+.navigation-footer ul li{
+    font-size: 2.4rem;
+    text-align: center;
+
+}
+
+.logo-footer{
+    margin: 0 4rem 0 auto;
+}
+
+
+
+
+/*footer-flex-høyre-side----------
+
+.flex-right{
+    display: flex;
+    flex-direction: row;
+}
+    må legge til div med ".flex-right" hvis koden skal funke
+*/
+
+
+
+
+
 
 
 
