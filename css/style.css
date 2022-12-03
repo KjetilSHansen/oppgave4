@@ -20,9 +20,10 @@ body{
 
 /*MAIN----------*/
 main{ 
-    max-width: 120rem;
+    max-width: 140rem;  /*orginal 120*/
     margin: 0 auto;
     width: 100%;
+    padding: 4rem;
 }
 
 
@@ -40,9 +41,7 @@ h1 a{
 /*ALL H2----------*/
 h2{
     font-size: 5rem;
-    padding-left: 8rem;
-    margin-top: 18rem;
-    
+    margin-top: 16rem;
 }
 
 
@@ -55,6 +54,8 @@ p{
 /*HEADER----------*/
 .header-flex{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 6rem;
 }
 
@@ -68,11 +69,6 @@ nav ul {
     margin-bottom: 2rem;
 }
 
-.header-flex{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 .navigation-header{
     display: flex;
@@ -107,7 +103,6 @@ input{
     border-style: none;
     background: none;
     font-size: 3rem; /*Størrelse kan endres*/
-  
 }
 
 
@@ -126,19 +121,18 @@ input{
     background-size: cover;
     background-position: center;
     position: relative;
-    padding: 4rem;
+    padding-left: 7rem;
 }
 
 .hero-text{
     position: absolute;
-    bottom: 4rem;
+    bottom: 7.5rem;
 }
 
 .hero-sjekk-ut{
     font-size: 7rem;
     color: #f9f6f3;
-    margin-bottom: 2rem;
-    padding-left: 0;
+    margin: 0 8rem 2rem 2rem;
 }
 
 .hero-les-mer{
@@ -147,6 +141,7 @@ input{
     font-family:'Noto Sans', sans-serif;
     font-size: 2.5rem;
     font-weight: 300;
+    margin-left: 2rem;
     padding: 2rem 4rem 2rem 4rem;
     text-align: center;
     border: none;
@@ -156,13 +151,11 @@ input{
 /*BLI-INSPIRERT----------*/
 .carousel-container-one{
     height: 40rem;
-    margin: 8rem;
+    margin: 8rem 0 8rem 0; 
     display: flex;
-    justify-content: center;
     flex-direction: row;
     gap: 8rem;
     overflow-x: scroll;
-
 }
 
 
@@ -170,27 +163,27 @@ input{
 .carousel-container-two{
     display: flex;
     justify-content: center;
-    margin: 8rem 8rem 0rem 8rem;
-    overflow-x: scroll;
+    margin: 8rem 0 8rem 0;
+    overflow-x: scroll;     /*Legg til et bilde til slik at det blir karusell*/
 }
 
 
 /*OM-OSS----------*/
 .om-oss-heading{
     text-align: center;
-    margin-left: 19rem;
+    margin: 16rem 0 8rem 26rem;
 }
 
 .om-oss-flex{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 10rem;
+    gap: 8rem;
 }
 
 .om-oss-container1{
     display: flex;
-    gap: 2rem;
+    gap: 14rem;
     flex-flow: row wrap;
 }
 
@@ -199,16 +192,16 @@ input{
     height: auto;
 }
 
+.om-oss-container2{
+    display: flex;
+    gap: 14rem;
+    flex-flow: row wrap;
+    flex-direction: row-reverse;
+}
+
 .om-oss-container2 img {
     max-width: 58rem;
     height: auto;
-    flex-flow: row wrap;
-}
-
-.om-oss-container2{
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 4rem;
 }
 
 .article-1{
@@ -218,15 +211,11 @@ input{
     max-width: 58rem;
 }
 
-
-/*gjør det samme i article-2 som i article-1*/
-
-
 .article-2{
-    padding: 18rem 14rem 0 0;
     font-family: 'noto sans', sans-serif;
     font-weight: 300;
     font-size: 2rem;
+    max-width: 58rem;
 }
 
 .om-oss-box{
@@ -238,18 +227,12 @@ input{
 }
 
 
-
-
-
-
-
-
-
 /*FOOTER----------*/
 footer{
     background-color: #535c5a;
     color: #f9f6f3;
     position: relative;
+    margin-top: 16rem;
 }
 
 /*footer-flex----------*/
@@ -295,6 +278,40 @@ footer{
 
 
 
+/*---------- ----------MEDIA SCREEN SIDE 1---------- ----------*/
+
+
+@media screen and (max-width: 1379px) {
+
+    body{
+        background-color: green; /*Overgang, husk å fjerne*/
+    }
+
+    .om-oss-heading{
+        margin: 16rem 0 8rem 0;
+    }
+
+    .om-oss-flex{
+        margin: auto;
+        width: 50%;   /* Skjer noe rart i overgangen her...*/
+    }
+    
+    .om-oss-container1{
+        gap: 6rem;
+        justify-content: center;
+       
+    }
+    
+    .om-oss-container2{
+        gap: 6rem;
+        justify-content: center;
+        
+    }
+}
+
+
+
+
 
 
     /* 
@@ -318,6 +335,7 @@ footer{
 
 
 /*---------- ----------SIDE-2---------- ----------*/
+
 
 Header nav ul li:hover{
     text-decoration:underline;
@@ -418,6 +436,10 @@ footer nav ul li:hover{
     flex: 1;
     text-align: right;
 }
+
+
+
+/*---------- ----------MEDIA SCREEN SIDE 2---------- ----------*/
 
 
 @media screen and (max-width:900px) {
