@@ -456,12 +456,18 @@ footer nav ul li:hover{
     .navigation-header {
         display: none;
     }
-
-    .categories p {
-        display: none;
+    .header-flex{
+        display: flex;
+        justify-content: center;
     }
-
-    .categories div {
-        display: none;
+    .product-cards{
+        justify-content: center;
     }
-}
+    
+@media screen and (max-width:1200px){
+        .categories p{
+         display: none;
+     }
+     .categories div{
+         display: none;
+     }
