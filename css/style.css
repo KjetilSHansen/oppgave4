@@ -466,8 +466,9 @@ footer nav ul li:hover{
     
 @media screen and (max-width:1200px){
         .categories p{
-         display: none;
-     }
-     .categories div{
-         display: none;
-     }
+            display: none;
+        }
+        .categoriess div{
+            display: none;
+        }
+}
