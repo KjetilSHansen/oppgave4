@@ -258,6 +258,7 @@ footer {
 .footer-flex {
     display: flex;
     gap: 8rem;
+    flex-wrap: wrap;
 }
 
 /*footer-flex-venstre-side----------*/
@@ -345,7 +346,32 @@ footer {
         list-style: none;
         align-items: center;
     }
+
+    .footer-flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0rem;
+    }
+
+    .navigation-footer{
+        display: flex;
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    .logo-footer {
+        margin: 0 6rem 0 auto;
+        padding: 1rem;
+    }
+
+    .flex-left{
+        padding: 1rem;
+    }
 }
+
+
+
+
 
 
 
