@@ -352,6 +352,7 @@ footer{
 
 Header nav ul li:hover{
     text-decoration:underline;
+    transition-delay: 0.2s;
 }
 
 body section div:hover{
