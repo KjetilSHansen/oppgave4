@@ -358,12 +358,12 @@ Header nav ul li:hover {
     transition-delay: 0.2s;
 }
 
-body section div:hover {
-    text-decoration: underline;
+body section div:hover{
+    text-decoration:underline;
 }
 
-footer nav ul li:hover {
-    text-decoration: underline;
+footer nav ul li:hover{
+    text-decoration:underline;
 }
 
 .categories {
@@ -387,7 +387,6 @@ footer nav ul li:hover {
     color: #B44D00
 }
 
-
 .product-cards {
     max-width: 120rem;
     width: 100%;
@@ -406,7 +405,6 @@ footer nav ul li:hover {
 .product-card img {
     width: 100%;
 }
-
 
 .product-card_info h4 {
     font-family: 'Cormorant garamond', serif;
