@@ -333,12 +333,12 @@ footer {
         padding: 1rem;
         display: flex;
         justify-content: center;
-        gap: 5rem;
+        gap: 8rem;
     }
 
     .mobil-navigation ul {
         display: flex;
-        gap: 5rem;
+        gap: 2.5rem;
         list-style: none;
         align-items: center;
     }
@@ -347,6 +347,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
         gap: 0rem;
+        flex-direction: column;
     }
 
     .navigation-footer{
@@ -355,28 +356,38 @@ footer {
         padding: 1rem;
     }
 
+    .navigation-footer ul {
+        width: 100%;
+    }
+
+    .navigation-footer ul li {
+        width: 100%;
+        text-align: center;
+    }
+
     .logo-footer {
-        margin: 0 6rem 0 auto;
-        padding: 1rem;
+        margin: 0 auto;
+        padding: 3rem;
     }
 
     .flex-left{
         padding: 1rem;
     }
+
+    .footer-paragraph{
+        margin: 0 auto;
+    }
+
+    .hero-container h2{
+        font-size: 5rem;
+    }
+
 }
 
 
-/*
-
-Hjelp med footer
-terminal for å sjekke siden på mobil
-<strong>
-<br>
-
-*/
 
 
-
+/* Hjep med netlify*/
 
 
 
