@@ -361,6 +361,10 @@ body section ul li:hover{
     text-decoration:underline;
 }
 
+body section a:hover{
+    text-decoration: underline;
+}
+
 footer nav ul li:hover{
     text-decoration:underline;
 }
