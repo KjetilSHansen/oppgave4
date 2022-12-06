@@ -383,30 +383,30 @@ Header nav ul li:hover {
     transition-delay: 0.2s;
 }
 
-body section div:hover{
+body section ul li:hover{
     text-decoration:underline;
+}
+
+body section a:hover{
+    text-decoration: underline;
 }
 
 footer nav ul li:hover{
     text-decoration:underline;
 }
 
-.categories {
+.categories ul{
+    list-style: none;
     display: flex;
     flex-direction: row;
     gap: 7rem;
-    margin-left: 8rem;
     margin-top: 2rem;
     font-family: 'Cormorant garamond', serif;
     font-size: 3rem;
+    justify-content: center;
 }
 
-.categories img {
-    margin: 0 0 0 auto;
-    padding: 0 5rem 5rem 0;
-}
-
-.categories p {
+.news{
     font-family: 'Cormorant garamond', serif;
     font-size: 3rem;
     color: #B44D00
@@ -472,6 +472,12 @@ footer nav ul li:hover{
     text-align: right;
 }
 
+.categories-button{
+    display: flex;
+    justify-content: right;
+    padding-right: 5rem;
+}
+
 
 
 /*---------- ----------MEDIA SCREEN SIDE 2---------- ----------*/
@@ -485,16 +491,20 @@ footer nav ul li:hover{
         display: flex;
         justify-content: center;
     }
+
+}
+    
+@media screen and (max-width:1200px){
+    .categories ul{
+        display: none;
+    }
     .product-cards{
         justify-content: center;
     }
 }
-    
-@media screen and (max-width:1200px){
-        .categories p{
-            display: none;
-        }
-        .categoriess div{
-            display: none;
-        }
+
+@media screen and (min-width:1200px){
+    .categories-button{
+        display: none;
+    }
 }
