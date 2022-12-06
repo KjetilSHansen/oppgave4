@@ -308,17 +308,8 @@ footer {
 
 @media screen and (max-width: 1379px) {
 
-    body {
-        background-color: green;
-        /*Overgang, husk å fjerne*/
-    }
-
     .om-oss-heading {
         margin: 16rem 0 8rem 0;
-    }
-
-    .om-oss-flex {
-        /* Skjer noe rart i overgangen her...*/
     }
 
     .om-oss-container1 {
@@ -354,6 +345,7 @@ footer {
         list-style: none;
         align-items: center;
     }
+
 }
 
 
