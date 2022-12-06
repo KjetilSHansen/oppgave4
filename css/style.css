@@ -463,6 +463,7 @@ footer nav ul li:hover{
     .product-cards{
         justify-content: center;
     }
+}
     
 @media screen and (max-width:1200px){
         .categories p{
