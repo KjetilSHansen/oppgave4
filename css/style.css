@@ -142,7 +142,7 @@ input {
     color: #f9f6f3;
     font-family: 'Noto Sans', sans-serif;
     font-size: 2.5rem;
-    font-weight: 300;
+    font-weight: 400;
     margin-left: 2rem;
     padding: 2rem 4rem 2rem 4rem;
     text-align: center;
@@ -368,6 +368,14 @@ footer {
         padding: 1rem;
     }
 }
+
+
+/*
+
+Hjelp med footer
+terminal for å sjekke siden på mobil
+
+*/
 
 
 
