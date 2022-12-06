@@ -180,7 +180,6 @@ input {
     justify-content: center;
     margin: 8rem 0 8rem 0;
     overflow-x: scroll;
-    /*Legg til et bilde til slik at det blir karusell*/
 }
 
 
@@ -296,6 +295,7 @@ footer {
 }
 
 
+/*MOBILE-NAVIGATION----------*/
 .mobil-navigation {
     display: none;
 }
@@ -347,24 +347,6 @@ footer {
     }
 
 }
-
-
-
-
-
-
-/* 
-
-NOTATER:
-
-Spørre Carlo om kode til mobil vasjon!!!!!!!!!
-  
-*/
-
-
-
-
-
 
 
 
