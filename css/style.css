@@ -145,6 +145,7 @@ input{
     padding: 2rem 4rem 2rem 4rem;
     text-align: center;
     border: none;
+    transition: 0s;
 }
 
 .hero-les-mer:hover{
@@ -157,6 +158,7 @@ input{
     padding: 2rem 4rem 2rem 4rem;
     text-align: center;
     border: none;
+    transition-delay: 1s;
 }
 
 /*BLI-INSPIRERT----------*/
