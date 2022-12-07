@@ -266,14 +266,26 @@ footer {
     font-weight: 100;
 }
 
+.flex-time{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+
 .footer-paragraph {
     font-size: 2rem;
+}
+
+.footer-time{
+    font-size: 2rem;
+    text-align: center;
 }
 
 .flex-social {
     display: flex;
     justify-content: center;
-    gap: 6rem;
+    gap: 4rem;
 }
 
 .navigation-footer {
@@ -347,6 +359,8 @@ footer {
         flex-wrap: wrap;
         gap: 0rem;
         flex-direction: column;
+        padding: 4rem 0 9rem 0;
+    
     }
 
     .navigation-footer{
