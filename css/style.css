@@ -160,6 +160,7 @@ input {
     transition-delay: 0.2s;
 }
 
+
 /*BLI-INSPIRERT----------*/
 .carousel-container-one {
     height: 40rem;
@@ -270,7 +271,6 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-
 }
 
 .footer-paragraph {
@@ -394,7 +394,10 @@ footer {
     .hero-container h2{
         font-size: 5rem;
     }
-
+    .hero-les-mer {
+        font-size: 2rem;
+        padding: 1rem 3rem 1rem 3rem;
+    }
 }
 
 
@@ -521,9 +524,8 @@ footer nav ul li:hover{
         display: flex;
         justify-content: center;
     }
-
 }
-    
+
 @media screen and (max-width:1200px){
     .categories ul{
         display: none;
