@@ -21,7 +21,6 @@ body {
 /*MAIN----------*/
 main {
     max-width: 140rem;
-    /*orginal 120*/
     margin: 0 auto;
     width: 100%;
     padding: 4rem;
@@ -70,7 +69,6 @@ p {
     margin-bottom: 2rem;
 }
 
-
 .navigation-header {
     display: flex;
     flex-direction: column;
@@ -104,7 +102,6 @@ input {
     border-style: none;
     background: none;
     font-size: 3rem;
-    /*Størrelse kan endres*/
 }
 
 
@@ -142,7 +139,7 @@ input {
     color: #f9f6f3;
     font-family: 'Noto Sans', sans-serif;
     font-size: 2.5rem;
-    font-weight: 300;
+    font-weight: 400;
     margin-left: 2rem;
     padding: 2rem 4rem 2rem 4rem;
     text-align: center;
@@ -162,6 +159,7 @@ input {
     border: none;
     transition-delay: 0.2s;
 }
+
 
 /*BLI-INSPIRERT----------*/
 .carousel-container-one {
@@ -254,14 +252,12 @@ footer {
     padding-bottom: 8rem;
 }
 
-/*footer-flex----------*/
 .footer-flex {
     display: flex;
     gap: 8rem;
     flex-wrap: wrap;
 }
 
-/*footer-flex-venstre-side----------*/
 .flex-left {
     display: flex;
     flex-direction: column;
@@ -271,14 +267,25 @@ footer {
     font-weight: 100;
 }
 
+.flex-time{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
 .footer-paragraph {
     font-size: 2rem;
+}
+
+.footer-time{
+    font-size: 2rem;
+    text-align: center;
 }
 
 .flex-social {
     display: flex;
     justify-content: center;
-    gap: 6rem;
+    gap: 4rem;
 }
 
 .navigation-footer {
@@ -337,12 +344,12 @@ footer {
         padding: 1rem;
         display: flex;
         justify-content: center;
-        gap: 5rem;
+        gap: 8rem;
     }
 
     .mobil-navigation ul {
         display: flex;
-        gap: 5rem;
+        gap: 2.5rem;
         list-style: none;
         align-items: center;
     }
@@ -351,6 +358,9 @@ footer {
         display: flex;
         flex-wrap: wrap;
         gap: 0rem;
+        flex-direction: column;
+        padding: 4rem 0 9rem 0;
+    
     }
 
     .navigation-footer{
@@ -359,18 +369,41 @@ footer {
         padding: 1rem;
     }
 
+    .navigation-footer ul {
+        width: 100%;
+    }
+
+    .navigation-footer ul li {
+        width: 100%;
+        text-align: center;
+    }
+
     .logo-footer {
-        margin: 0 6rem 0 auto;
-        padding: 1rem;
+        margin: 0 auto;
+        padding: 3rem;
     }
 
     .flex-left{
         padding: 1rem;
     }
+
+    .footer-paragraph{
+        margin: 0 auto;
+    }
+
+    .hero-container h2{
+        font-size: 5rem;
+    }
+    .hero-les-mer {
+        font-size: 2rem;
+        padding: 1rem 3rem 1rem 3rem;
+    }
 }
 
 
 
+
+/* Hjep med netlify*/
 
 
 
@@ -491,9 +524,8 @@ footer nav ul li:hover{
         display: flex;
         justify-content: center;
     }
-
 }
-    
+
 @media screen and (max-width:1200px){
     .categories ul{
         display: none;
