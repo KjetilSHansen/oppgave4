@@ -12,11 +12,9 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-
-
 <body>
     <header class="header-flex">
-        <h1>dandes</h1>
+        <h1><a class="home" href="./index.html">dandes</a></h1>
         <nav class="navigation-header">
             <ul>
                 <li><a class="alle-produkter" href="./forms.html">Alle produkter</a></li>
@@ -30,29 +28,28 @@
                 <button aria-label="søkknapp" class="search-button"><img src="./assets/search-icon.svg"
                         aria-hidden="true"></button>
             </form>
+        </nav>
+        
+        <!--NAV APP-VERSJON-->
 
-            <!--NAV APP-VERSJON-->
-
-            <!--
-        <nav>
+        <nav class="mobil-navigation">
             <ul>
-                <li>profil-logo</li>
-                <li>favoritt-logo</li>
-                <li>handlekurv-logo</li>
-                <li>produkt-logo</li>
-                <li>søk-logo</li>
+                <li><img src="./assets/nav-profil.svg" alt="true"></li>
+                <li><img src="./assets/nav-hjerte.svg" alt="true"></li>
+                <li><img src="./assets/nav-handlekurv.svg" alt=""></li>
+                <li><img src="./assets/nav-sofa.svg" alt=""></li>
+                <li><img src="./assets/nav-søk.svg" alt=""></li>
             </ul>
         </nav>
-        -->
-
-        </nav>
     </header>
+
     <section class="hero-container">
         <div class="hero-text">
             <h2 class="hero-sjekk-ut">Sjekk ut de nyeste lenestolene!</h2>
             <button class="hero-les-mer">Les mer</button>
         </div>
     </section>
+
     <main>
         <section>
             <h2>Bli inspirert</h2>
@@ -116,7 +113,6 @@
         </article>
     </main>
 
-
     <footer class="footer-flex">
         <div class="flex-left">
             <p class="footer-paragraph">Åpningstider:<br> <strong>12:00-20:00</strong></p>
@@ -139,6 +135,7 @@
         </nav>
         <img class="logo-footer" src="./assets/logodandes.svg" alt="logo-dandes">
     </footer>
+
 </body>
 
 </html>
