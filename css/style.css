@@ -21,7 +21,6 @@ body {
 /*MAIN----------*/
 main {
     max-width: 140rem;
-    /*orginal 120*/
     margin: 0 auto;
     width: 100%;
     padding: 4rem;
@@ -70,7 +69,6 @@ p {
     margin-bottom: 2rem;
 }
 
-
 .navigation-header {
     display: flex;
     flex-direction: column;
@@ -104,7 +102,6 @@ input {
     border-style: none;
     background: none;
     font-size: 3rem;
-    /*Størrelse kan endres*/
 }
 
 
@@ -142,7 +139,7 @@ input {
     color: #f9f6f3;
     font-family: 'Noto Sans', sans-serif;
     font-size: 2.5rem;
-    font-weight: 300;
+    font-weight: 400;
     margin-left: 2rem;
     padding: 2rem 4rem 2rem 4rem;
     text-align: center;
@@ -163,6 +160,7 @@ input {
     transition-delay: 0.2s;
 }
 
+
 /*BLI-INSPIRERT----------*/
 .carousel-container-one {
     height: 40rem;
@@ -180,7 +178,6 @@ input {
     justify-content: center;
     margin: 8rem 0 8rem 0;
     overflow-x: scroll;
-    /*Legg til et bilde til slik at det blir karusell*/
 }
 
 
@@ -255,13 +252,12 @@ footer {
     padding-bottom: 8rem;
 }
 
-/*footer-flex----------*/
 .footer-flex {
     display: flex;
     gap: 8rem;
+    flex-wrap: wrap;
 }
 
-/*footer-flex-venstre-side----------*/
 .flex-left {
     display: flex;
     flex-direction: column;
@@ -271,14 +267,25 @@ footer {
     font-weight: 100;
 }
 
+.flex-time{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
 .footer-paragraph {
     font-size: 2rem;
+}
+
+.footer-time{
+    font-size: 2rem;
+    text-align: center;
 }
 
 .flex-social {
     display: flex;
     justify-content: center;
-    gap: 6rem;
+    gap: 4rem;
 }
 
 .navigation-footer {
@@ -289,6 +296,7 @@ footer {
     font-size: 2rem;
     font-family: 'noto sans', sans-serif;
     font-weight: 100;
+    list-style: none;
 }
 
 .logo-footer {
@@ -296,6 +304,7 @@ footer {
 }
 
 
+/*MOBILE-NAVIGATION----------*/
 .mobil-navigation {
     display: none;
 }
@@ -308,23 +317,13 @@ footer {
 
 @media screen and (max-width: 1379px) {
 
-    body {
-        background-color: green;
-        /*Overgang, husk å fjerne*/
-    }
-
     .om-oss-heading {
         margin: 16rem 0 8rem 0;
-    }
-
-    .om-oss-flex {
-        /* Skjer noe rart i overgangen her...*/
     }
 
     .om-oss-container1 {
         gap: 6rem;
         justify-content: center;
-
     }
 
     .om-oss-container2 {
@@ -339,40 +338,67 @@ footer {
         position: fixed;
         bottom: 0;
         z-index: 25;
-        background-color: #535C5A;
+        background-color: #413125;
         width: 100vw;
         left: 0;
         padding: 1rem;
         display: flex;
         justify-content: center;
-        gap: 5rem;
+        gap: 8rem;
     }
 
     .mobil-navigation ul {
         display: flex;
-        gap: 5rem;
+        gap: 2.5rem;
         list-style: none;
         align-items: center;
     }
+
+    .footer-flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0rem;
+        flex-direction: column;
+        padding: 4rem 0 9rem 0;
+    
+    }
+
+    .navigation-footer{
+        display: flex;
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    .navigation-footer ul {
+        width: 100%;
+    }
+
+    .navigation-footer ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo-footer {
+        margin: 0 auto;
+        padding: 3rem;
+    }
+
+    .flex-left{
+        padding: 1rem;
+    }
+
+    .footer-paragraph{
+        margin: 0 auto;
+    }
+
+    .hero-container h2{
+        font-size: 5rem;
+    }
+    .hero-les-mer {
+        font-size: 2rem;
+        padding: 1rem 3rem 1rem 3rem;
+    }
 }
-
-
-
-
-
-
-/* 
-
-NOTATER:
-
-Spørre Carlo om kode til mobil vasjon!!!!!!!!!
-  
-*/
-
-
-
-
-
 
 
 
@@ -384,35 +410,34 @@ Header nav ul li:hover {
     transition-delay: 0.2s;
 }
 
-body section div:hover {
+body section ul li:hover{
+    text-decoration:underline;
+}
+
+body section a:hover{
     text-decoration: underline;
 }
 
-footer nav ul li:hover {
-    text-decoration: underline;
+footer nav ul li:hover{
+    text-decoration:underline;
 }
 
-.categories {
+.categories ul{
+    list-style: none;
     display: flex;
     flex-direction: row;
     gap: 7rem;
-    margin-left: 8rem;
     margin-top: 2rem;
     font-family: 'Cormorant garamond', serif;
     font-size: 3rem;
+    justify-content: center;
 }
 
-.categories img {
-    margin: 0 0 0 auto;
-    padding: 0 5rem 5rem 0;
-}
-
-.categories p {
+.news{
     font-family: 'Cormorant garamond', serif;
     font-size: 3rem;
     color: #B44D00
 }
-
 
 .product-cards {
     max-width: 120rem;
@@ -432,7 +457,6 @@ footer nav ul li:hover {
 .product-card img {
     width: 100%;
 }
-
 
 .product-card_info h4 {
     font-family: 'Cormorant garamond', serif;
@@ -475,6 +499,12 @@ footer nav ul li:hover {
     text-align: right;
 }
 
+.categories-button{
+    display: flex;
+    justify-content: right;
+    padding-right: 5rem;
+}
+
 
 
 /*---------- ----------MEDIA SCREEN SIDE 2---------- ----------*/
@@ -487,9 +517,27 @@ footer nav ul li:hover {
     .header-flex{
         display: flex;
         justify-content: center;
+<<<<<<< HEAD
     }
     .product-cards{
         justify-content: center;
+=======
+    }
+}
+
+@media screen and (max-width:1200px){
+    .categories ul{
+        display: none;
+    }
+    .product-cards{
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .categories-button{
+        display: none;
+>>>>>>> 9d196a76372ce04cf25061b6176da8b4ce4bbede
     }
 
 

@@ -11,49 +11,52 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <header class="header-flex">
-
     <h1><a class="home" href="./index.html">dandes</a></h1>
-
     <nav class="navigation-header">
-
         <ul>
-            <li>Alle produkter</li> <!--link-->
+            <li><a class="alle-produkter" href="./forms.html">Alle produkter</a></li>
             <li aria-label="min profil"><img src="./assets/profile-icon.svg" aria-hidden="true"></li>
             <li aria-label="favoritter"><img src="./assets/heart-icon.svg" aria-hidden="true"></li>
             <li aria-label="handlekurv"><img src="./assets/shopping-cart-icon.svg" aria-hidden="true"></li>
         </ul>
-
         <form class="search-container" action="result.html">
             <label for="search" style="display: none">Søk</label>
             <input type="search" id="search">
-            <button aria-label="søkknapp" class="search-button"><img src="./assets/search-icon.svg" aria-hidden="true"></button>
-
+            <button aria-label="søkknapp" class="search-button"><img src="./assets/search-icon.svg"
+                    aria-hidden="true"></button>
         </form>
-
     </nav>
-
+    <!--NAV APP-VERSJON-->
+    <nav class="mobil-navigation">
+        <ul>
+            <li><img src="./assets/nav-profil.svg" alt="true"></li>
+            <li><img src="./assets/nav-hjerte.svg" alt="true"></li>
+            <li><img src="./assets/nav-handlekurv.svg" alt=""></li>
+            <li><a class="alle-produkter" href="./forms.html"><img src="./assets/nav-sofa.svg" alt=""></a></li>
+            <li><img src="./assets/nav-søk.svg" alt=""></li>
+        </ul>
+    </nav>
 </header>
 
 <body>
-
     <section class="categories">
-    
-            <p>Nyheter</p>
-            <list>Sittemøbler</list>
-            <div>Bord</div>
-            <div>Oppbevaring</div>
-            <div>Belysning</div>
-            <div>Speil </div>
-    
-        <img src="./assets/filtrer_button.svg">
+        <ul>
+            <li class="news">Nyheter</li>
+            <li>Sittemøbler</li>
+            <li>Bord</li>
+            <li>Oppbevaring</li>
+            <li>Belysning</li>
+            <li>Speil</li>
 
+            <li><img src="./assets/filtrer_button.svg"></li>
+        </ul>
     </section>
-
+    <section class="categories-button">
+        <img src="./assets/filtrer_button.svg">
+    </section>
     <section class="product-cards">
-        
-        <a class="product-card"> 
+        <a class="product-card">
             <img src="./assets/lenestol_1.jpg">
             <div class="product-card_info">
                 <div class="info_block">
@@ -68,9 +71,8 @@
                         175 000 NOK
                     </p>
                 </div>
-         </div>
+            </div>
         </a>
-
         <a class="product-card">
             <img src="./assets/theegg_1.jpg">
             <div class="product-card_info">
@@ -140,7 +142,7 @@
                         43 000 NOK
                     </p>
                 </div>
-           </div>
+            </div>
         </a>
         <a class="product-card">
             <img src="./assets/stol_1.jpg">
@@ -160,9 +162,7 @@
             </div>
         </a>
     </section>
-
 </body>
-
 <footer class="footer-flex">
     <div class="flex-left">
         <p class="footer-paragraph">Åpningstider:<br> <strong>12:00-20:00</strong></p>

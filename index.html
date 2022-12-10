@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>Dandes</title>
 
     <!--Link to CSS-->
@@ -29,27 +29,22 @@
                         aria-hidden="true"></button>
             </form>
         </nav>
-        
-        <!--NAV APP-VERSJON-->
-
         <nav class="mobil-navigation">
             <ul>
                 <li><img src="./assets/nav-profil.svg" alt="true"></li>
                 <li><img src="./assets/nav-hjerte.svg" alt="true"></li>
                 <li><img src="./assets/nav-handlekurv.svg" alt=""></li>
-                <li><img src="./assets/nav-sofa.svg" alt=""></li>
+                <li><a class="alle-produkter" href="./forms.html"><img src="./assets/nav-sofa.svg" alt=""></a></li>
                 <li><img src="./assets/nav-søk.svg" alt=""></li>
             </ul>
         </nav>
     </header>
-
     <section class="hero-container">
         <div class="hero-text">
             <h2 class="hero-sjekk-ut">Sjekk ut de nyeste lenestolene!</h2>
             <button class="hero-les-mer">Les mer</button>
         </div>
     </section>
-
     <main>
         <section>
             <h2>Bli inspirert</h2>
@@ -112,10 +107,12 @@
             </div>
         </article>
     </main>
-
     <footer class="footer-flex">
         <div class="flex-left">
-            <p class="footer-paragraph">Åpningstider:<br> <strong>12:00-20:00</strong></p>
+            <div class="flex-time">
+                <p class="footer-paragraph">Åpningstider:</p>
+                <span class="footer-time"><strong>12:00-20:00</strong></span>
+            </div>
             <div class="flex-social">
                 <a href="https://www.facebook.com" arial-label="Link til facebook side av dandes"><img
                         src="./assets/facebook.svg"></a>
@@ -135,7 +132,5 @@
         </nav>
         <img class="logo-footer" src="./assets/logodandes.svg" alt="logo-dandes">
     </footer>
-
 </body>
-
 </html>
